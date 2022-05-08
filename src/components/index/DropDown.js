@@ -8,7 +8,7 @@ export default function Dropdown(props) {
       <li tabIndex="0">
       
 
-        <div className="font-bold  flex flex-row z-0  justify-end">
+        <div className="font-bold  flex flex-row z-0  justify-start mt-1 mr-2 bg-none ">
           <Link to={props.route} >{props.name}</Link>
           <svg
             class="fill-current "
