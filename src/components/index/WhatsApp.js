@@ -1,7 +1,6 @@
 import React from "react";
 import WhatsAppWidget from "react-whatsapp-chat-widget";
 import "react-whatsapp-chat-widget/index.css";
-import me from "../../assets/photos/me.jpg";
 export default function WahtasApp() {
   return (
     <WhatsAppWidget
@@ -9,7 +8,7 @@ export default function WahtasApp() {
       position="right"
       widgetWidth="350px"
       widgetWidthMobile="260px"
-      autoOpen={true}
+      autoOpen={false}
       autoOpenTimer={5000}
       messageBox={true}
       messageBoxTxt=""
