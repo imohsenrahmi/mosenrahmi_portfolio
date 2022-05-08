@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import myPhoto from "../../assets/photos/mohsen.jpg";
-
 export default function Start() {
   let [text, setText] = useState("ارتباط با من");
   return (
