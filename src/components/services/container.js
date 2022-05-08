@@ -35,11 +35,11 @@ export default function Container(props) {
   ];
   return (
     <div class="flex flex-col w-full mt-5 py-32 px-5">
-      <div class="grid h-20 card bg-none rounded-box place-items-center">
-        <h1 className=" bg-none text-2xl font-bold welcome-txt-name rounded">
+      <div class="grid  card bg-none rounded-box place-items-center">
+        <h1 className=" bg-none text-center text-xl my-2 font-bold welcome-txt-name rounded">
           خدمات برنامه نویسی دانشجویی و طراحی وب سایت
         </h1>
-        <h1 className=" bg-none text-sm font-bold text-white  tracking-wide rounded">
+        <h1 className=" bg-none text-center text-sm font-bold text-white  tracking-wide rounded">
           شما می توانید خدمت مورد نظر را از راه های ارتباطی زیر به ما بسپارید
         </h1>
       </div>
