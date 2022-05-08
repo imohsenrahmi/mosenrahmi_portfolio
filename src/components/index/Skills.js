@@ -11,16 +11,18 @@ export default function Skills(props) {
               مهارت ها
             </h1>
             <p className="mt-10 text-xl">
-              در این بخش شما می توانید مهارت های من را مشاهده نمایید
+              در این بخش شما می توانید مهارت های من را مشاهده
+              <br /> نمایید علاوه بر این مهارت ها ، من زبان های <br />
+              <span className="font-bold  email text-bold text-xl">
+                C , C++ , Matlab , C#
+              </span>
               <br />
-              علاوه بر این مهارت ها ، من زبان های <br />
-              C , C++ , Matlab , C# <br /> را در حد انجام پروژه های دانشجویی بلد
-              هستم و در صورت نیاز به کمک <br /> در حل پروژه های دانشجویی در خدمت
-              شما خواهم بود
+              را در حد انجام پروژه های دانشجویی مسلط هستم و در <br />
+              صورت نیاز به کمک در حل پروژه های دانشجویی در خدمت شما خواهم بود
             </p>
           </div>
 
-          <div className="grid flex-grow card mt-16  rounded-box sm:ml-auto sm:mr-auto place-items-start">
+          <div className="grid flex-grow card mt-16 mx-1  rounded-box sm:ml-auto sm:mr-auto place-items-start">
             {props.value.map((v, i) => {
               return (
                 <div
