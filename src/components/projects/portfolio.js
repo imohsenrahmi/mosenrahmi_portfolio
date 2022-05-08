@@ -9,7 +9,7 @@ export default function Portfolio() {
         description=" A simple portfolio designed using React & Tailwindcss."
         tools={["react", "tailwindcss", "nodejs"]}
         image="portfolio.png"
-        site="https://mohsenrahmi.com"
+        site="https://mohsen-s4i0.onrender.com/"
       />
     </div>
   );
